@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" class="nanware-graphic-logo">
+    <defs>
+        <symbol id="processor-icon" viewBox="0 0 40 40">
+            <!-- Processor square -->
+            <rect x="10" y="10" width="20" height="20" rx="2" ry="2" fill="none" stroke="#ffffff" stroke-width="1.25" />
+
+            <!-- Top lines -->
+            <g id="top-lines">
+                <line x1="13" y1="10" x2="13" y2="5" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="20" y1="10" x2="20" y2="3" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="27" y1="10" x2="27" y2="5" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+            </g>
+
+            <!-- Bottom lines -->
+            <g id="bottom-lines">
+                <line x1="13" y1="30" x2="13" y2="35" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="20" y1="30" x2="20" y2="37" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="27" y1="30" x2="27" y2="35" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+            </g>
+
+            <!-- Left lines -->
+            <g id="left-lines">
+                <line x1="10" y1="13" x2="5" y2="13" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="10" y1="20" x2="3" y2="20" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="10" y1="27" x2="5" y2="27" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+            </g>
+
+            <!-- Right lines -->
+            <g id="right-lines">
+                <line x1="30" y1="13" x2="35" y2="13" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="30" y1="20" x2="37" y2="20" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+                <line x1="30" y1="27" x2="35" y2="27" stroke-linecap="round" stroke="#ffffff" stroke-width="1" />
+            </g>
+        </symbol>
+    </defs>
+
+    <use href="#processor-icon" x="250" y="200" width="500" height="500" />
+
+    <text x="500" y="800" text-anchor="middle" fill="#ffffff" font-size="120px" font-family="Arial, sans-serif">Nanware</text>
+</svg>
